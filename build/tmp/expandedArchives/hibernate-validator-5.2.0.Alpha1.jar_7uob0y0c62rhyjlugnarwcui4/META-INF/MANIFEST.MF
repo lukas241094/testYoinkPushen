@@ -1,0 +1,71 @@
+Manifest-Version: 1.0
+Implementation-Title: hibernate-validator
+Bundle-Description: Hibernate's Bean Validation (JSR-303) reference im
+ plementation.
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: org.hibernate.validator
+Implementation-Version: 5.2.0.Alpha1
+Archiver-Version: Plexus Archiver
+Built-By: hardy
+Bnd-LastModified: 1413989892978
+Bundle-ManifestVersion: 2
+Implementation-Vendor-Id: org.hibernate
+Specification-Title: Bean Validation
+Import-Package: com.fasterxml.classmate;version="0.8.0",com.fasterxml.
+ classmate.members;version="0.8.0",javax.el;version="[2.0.0,4.0.0)",ja
+ vax.persistence;version="[2.0.0,3.0.0)";resolution:=optional,javax.va
+ lidation;version="[1.0.0,2.0.0)",javax.validation.constraints;version
+ ="[1.0.0,2.0.0)",javax.validation.constraintvalidation;version="[1.0.
+ 0,2.0.0)",javax.validation.executable;version="[1.0.0,2.0.0)",javax.v
+ alidation.groups;version="[1.0.0,2.0.0)",javax.validation.metadata;ve
+ rsion="[1.0.0,2.0.0)",javax.validation.spi;version="[1.0.0,2.0.0)",ja
+ vax.xml;version=0,javax.xml.bind;version=0,javax.xml.bind.annotation;
+ version=0,javax.xml.bind.annotation.adapters;version=0,javax.xml.name
+ space;version=0,javax.xml.stream;version=0,javax.xml.stream.events;ve
+ rsion=0,javax.xml.transform;version=0,javax.xml.transform.stream;vers
+ ion=0,javax.xml.validation;version=0,org.jboss.logging;version="[3.1.
+ 0,4.0.0)",org.joda.time;version="[1.6.0,2.0.0)";resolution:=optional,
+ org.jsoup;version="[1.5.2,2.0.0)";resolution:=optional,org.jsoup.node
+ s;version="[1.5.2,2.0.0)";resolution:=optional,org.jsoup.parser;versi
+ on="[1.5.2,2.0.0)";resolution:=optional,org.jsoup.safety;version="[1.
+ 5.2,2.0.0)";resolution:=optional,org.jsoup.select;version="[1.5.2,2.0
+ .0)";resolution:=optional,org.xml.sax;version=0
+Tool: Bnd-1.50.0
+Implementation-Vendor: org.hibernate
+Export-Package: org.hibernate.validator;uses:="javax.validation.spi,ja
+ vax.validation,org.hibernate.validator.spi.resourceloading,org.hibern
+ ate.validator.cfg,org.hibernate.validator.spi.valuehandling,org.hiber
+ nate.validator.spi.constraintdefinition";version="5.2.0.Alpha1",org.h
+ ibernate.validator.cfg;uses:="javax.validation,org.hibernate.validato
+ r.cfg.context";version="5.2.0.Alpha1",org.hibernate.validator.cfg.con
+ text;uses:="org.hibernate.validator.cfg,org.hibernate.validator.spi.g
+ roup";version="5.2.0.Alpha1",org.hibernate.validator.cfg.defs;uses:="
+ org.hibernate.validator.cfg,javax.validation.constraints,org.hibernat
+ e.validator.constraints";version="5.2.0.Alpha1",org.hibernate.validat
+ or.constraints;uses:="javax.validation,javax.validation.constraints";
+ version="5.2.0.Alpha1",org.hibernate.validator.constraints.br;uses:="
+ org.hibernate.validator.constraints,javax.validation.constraints,java
+ x.validation";version="5.2.0.Alpha1",org.hibernate.validator.constrai
+ ntvalidation;uses:="javax.validation";version="5.2.0.Alpha1",org.hibe
+ rnate.validator.constraintvalidators;uses:="org.hibernate.validator.c
+ onstraints,javax.validation";version="5.2.0.Alpha1",org.hibernate.val
+ idator.group;uses:="org.hibernate.validator.spi.group";version="5.2.0
+ .Alpha1",org.hibernate.validator.messageinterpolation;uses:="org.hibe
+ rnate.validator.spi.resourceloading,org.hibernate.validator.resourcel
+ oading,javax.validation,javax.xml.bind";version="5.2.0.Alpha1",org.hi
+ bernate.validator.parameternameprovider;uses:="javax.validation";vers
+ ion="5.2.0.Alpha1",org.hibernate.validator.resourceloading;uses:="org
+ .hibernate.validator.spi.resourceloading,org.jboss.logging";version="
+ 5.2.0.Alpha1",org.hibernate.validator.spi.resourceloading;version="5.
+ 2.0.Alpha1",org.hibernate.validator.spi.group;version="5.2.0.Alpha1",
+ org.hibernate.validator.spi.constraintdefinition;uses:="javax.validat
+ ion";version="5.2.0.Alpha1",org.hibernate.validator.spi.valuehandling
+ ;version="5.2.0.Alpha1",org.hibernate.validator.valuehandling;version
+ ="5.2.0.Alpha1"
+Bundle-Name: Hibernate Validator Engine
+Bundle-Version: 5.2.0.Alpha1
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_20
+Implementation-URL: http://validator.hibernate.org
+Specification-Version: 1.1
+
